@@ -1,6 +1,9 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    actionmailer (0.6.1)
+      actionpack (>= 0.9.5)
+    actionpack (1.4.0)
     activemodel (5.0.0)
       activesupport (= 5.0.0)
     activerecord (5.0.0)
@@ -27,6 +30,11 @@ GEM
     rack (1.6.4)
     rack-protection (1.5.3)
       rack
+    rails (0.9.5)
+      actionmailer (>= 0.6.1)
+      actionpack (>= 1.4.0)
+      activerecord (>= 1.6.0)
+      rake (>= 0.4.15)
     rake (11.2.2)
     require_all (1.3.3)
     rspec (3.5.0)
@@ -63,6 +71,7 @@ DEPENDENCIES
   activerecord
   database_cleaner
   pry
+  rails
   rake
   require_all
   rspec
@@ -70,4 +79,4 @@ DEPENDENCIES
   sqlite3
 
 BUNDLED WITH
-   1.12.5
+   1.17.1
